@@ -1,0 +1,23 @@
+
+<persistence version="2.0"
+	xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+            http://java.sun.com/xml/ns/persistence
+            http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="primary">
+		<provider>org.hibernate.ogm.jpa.HibernateOgmPersistence</provider>
+		<properties>
+			<property name="hibernate.search.Rules.directory_provider"
+				value="ram" />
+			<property name="hibernate.ogm.datastore.provider"
+				value="org.hibernate.ogm.datastore.mongodb.impl.MongoDBDatastoreProvider" />
+			<property name="hibernate.ogm.mongodb.database" value="NOSQL_DB_NAME" />
+			<property name="hibernate.ogm.mongodb.host" value="NOSQL_DB_HOST" />
+			<property name="hibernate.ogm.mongodb.port" value="NOSQL_DB_PORT" />
+			<property name="hibernate.ogm.mongodb.username" value="NOSQL_DB_USERNAME" />
+			<property name="hibernate.ogm.mongodb.password" value="NOSQL_DB_PASSWORD" />
+		</properties>
+		<class>org.jboss.as.quickstarts.kitchensink.model.Member</class>
+		<class>org.jboss.as.quickstarts.kitchensink.model.ContactDetails</class>
+	</persistence-unit>
+</persistence>
