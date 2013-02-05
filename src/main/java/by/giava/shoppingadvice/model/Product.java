@@ -1,6 +1,5 @@
 package by.giava.shoppingadvice.model;
 
-
 import java.io.Serializable;
 
 public class Product implements Serializable
@@ -9,82 +8,104 @@ public class Product implements Serializable
     * 
     */
    private static final long serialVersionUID = 1L;
-   private String marca;
-   private String descrizione;
-   private String confezione;
-   private String prezzoUnita;
-   private String prezzo;
-   private String imageUri;
-   private String externalUri;
+   private String id;
+   private String product;
+   private String brand;
+   private String description;
+   private String weight;
+   private String unityPrice;
+   private String price;
+   private String image;
+   private String webSite;
 
-   public String getMarca()
+   public String getId()
    {
-      return marca;
+      return id;
    }
 
-   public void setMarca(String marca)
+   public void setId(String id)
    {
-      this.marca = marca;
+      this.id = id;
    }
 
-   public String getDescrizione()
+   public String getProduct()
    {
-      return descrizione;
+      return product;
    }
 
-   public void setDescrizione(String descrizione)
+   public void setProduct(String product)
    {
-      this.descrizione = descrizione;
+      this.product = product;
    }
 
-   public String getConfezione()
+   public String getBrand()
    {
-      return confezione;
+      return brand;
    }
 
-   public void setConfezione(String confezione)
+   public void setBrand(String brand)
    {
-      this.confezione = confezione;
+      this.brand = brand;
    }
 
-   public String getPrezzoUnita()
+   public String getDescription()
    {
-      return prezzoUnita;
+      return description;
    }
 
-   public void setPrezzoUnita(String prezzoUnita)
+   public void setDescription(String description)
    {
-      this.prezzoUnita = prezzoUnita;
+      this.description = description;
    }
 
-   public String getPrezzo()
+   public String getWeight()
    {
-      return prezzo;
+      return weight;
    }
 
-   public void setPrezzo(String prezzo)
+   public void setWeight(String weight)
    {
-      this.prezzo = prezzo;
+      this.weight = weight;
    }
 
-   public String getImageUri()
+   public String getUnityPrice()
    {
-      return imageUri;
+      return unityPrice;
    }
 
-   public void setImageUri(String imageUri)
+   public void setUnityPrice(String unityPrice)
    {
-      this.imageUri = imageUri;
+      this.unityPrice = unityPrice;
    }
 
-   public String getExternalUri()
+   public String getPrice()
    {
-      return externalUri;
+      return price;
    }
 
-   public void setExternalUri(String externalUri)
+   public void setPrice(String price)
    {
-      this.externalUri = externalUri;
+      this.price = price;
+   }
+
+   public String getImage()
+   {
+      return image;
+   }
+
+   public void setImage(String image)
+   {
+      this.image = image;
+   }
+
+   public String getWebSite()
+   {
+      return webSite;
+   }
+
+   public void setWebSite(String webSite)
+   {
+      this.webSite = webSite;
    }
 
 }

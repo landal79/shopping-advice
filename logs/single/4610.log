@@ -23,7 +23,16 @@ document.oncontextmenu = blocca_tasto_dx;
 
 <body>
 <div id="spesa_product"> 
-  <img src='foto/fungo_cardoncello_001.jpg'  class='img_pd'/><div id='scheda'><h1 >Funghi cardoncelli</h1><br /><table><tr><td class='titolo'>Marca: </td><td></td></tr><tr><td class='titolo'>Descrizione: </td><td>Funghi cardoncelli</td></tr><tr><td class='titolo'>Confezione: </td><td>500 gr</td></tr><tr><td class='titolo'>Euro:  </td><td>8.50 al Kg</td></tr><tr><td class='titolo'><strong>Prezzo:</strong></td><td>4.25Euro</td></tr></table></div>  </div> 
+  <img src='foto/fungo_cardoncello_001.jpg'  class='img_pd'/>
+  <div id='scheda'>
+  <h1 >Funghi cardoncelli</h1><br />
+  <table>
+  <tr><td class='titolo'>Marca: </td><td></td></tr>
+  <tr><td class='titolo'>Descrizione: </td><td>Funghi cardoncelli</td></tr>
+  <tr><td class='titolo'>Confezione: </td><td>500 gr</td></tr>
+  <tr><td class='titolo'>Euro:  </td><td>8.50 al Kg</td></tr>
+  <tr><td class='titolo'><strong>Prezzo:</strong></td><td>4.25Euro</td></tr>
+  </table></div>  </div> 
   <p>Questa scheda &egrave; stata preparata a solo scopo informativo. La compilazione &egrave; stata fatta con la massima attenzione, ma non sostituisce 
     la lettura della etichetta sulla confezione del prodotto prima dell'uso. I prodotti ed i loro ingredienti sono soggetti a cambiamenti.<br>
     Spesain declina ogni responsabilit&agrave; per ogni informazione non corretta. 
